@@ -4226,7 +4226,9 @@ a.et_pb_more_button:after {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-shadow: 0 0;
-    direction: ltr
+    direction: ltr;
+    
+    
 }
 
 .et-pb-icon,
@@ -9223,12 +9225,14 @@ button.et_pb_menu__icon__with_count:after {
 }
 
 .mobile_menu_bar:before {
-    content: "a";
-    font-size: 32px;
+    content: "Menu";
+    font-size: 20px;
     position: relative;
     left: 0;
     top: 0;
-    cursor: pointer
+    cursor: pointer;
+    color: #424242;
+    
 }
 
 .et_pb_module .mobile_menu_bar:before {
@@ -10341,7 +10345,7 @@ body.et_vertical_nav .container.et_search_form_container .et-search-form input {
 .et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__search-button,
 .et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__close-search-button,
 .et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__cart-button {
-    color: #585dd6
+    color: #000000
 }
 
 .et_pb_row_1_tb_header {
