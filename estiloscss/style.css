@@ -3054,7 +3054,7 @@ body {
 }
 
 #et-boc .area-outer-wrap[data-da-color=light] .da-close {
-    background: #fff2;
+    background: rgba(248, 239, 239, 0.133);
     -webkit-box-shadow: 0 0 3px 1px #00000008;
     box-shadow: 0 0 3px 1px #00000008;
     color: #333
@@ -4284,7 +4284,7 @@ a.et_pb_more_button:after {
 .et-safe-mode-indicator:hover {
     -webkit-box-shadow: 0 5px 10px rgba(41, 196, 169, .15);
     box-shadow: 0 5px 10px rgba(41, 196, 169, .15);
-    background: #29c4a9;
+    background: #ffffff;
     color: #fff;
     font-size: 14px;
     font-weight: 600;
@@ -4420,6 +4420,8 @@ a.et_pb_more_button:after {
     font-size: 15px
 }
 
+
+/*TELEFONE E EMAIL DE CONTATO FOOTER*/
 .et_pb_bg_layout_dark,
 .et_pb_bg_layout_dark h1,
 .et_pb_bg_layout_dark h2,
@@ -4427,7 +4429,7 @@ a.et_pb_more_button:after {
 .et_pb_bg_layout_dark h4,
 .et_pb_bg_layout_dark h5,
 .et_pb_bg_layout_dark h6 {
-    color: #fff !important
+    color: #000000 !important
 }
 
 .et_pb_module.et_pb_text_align_left {
@@ -9217,7 +9219,7 @@ button.et_pb_menu__icon__with_count:after {
 .mobile_menu_bar {
     position: relative;
     display: block;
-    line-height: 0
+    line-height: 0;
 }
 
 .mobile_menu_bar:before {
@@ -10074,19 +10076,19 @@ body .et_pb_bg_layout_dark .et_pb_post p {
 .et_search_form_container input,
 span.et_close_search_field:after,
 #et-top-navigation .et-cart-info {
-    color: #054968
+    color: #FFD700
 }
 
 .et_search_form_container input::-moz-placeholder {
-    color: #054968
+    color: #FFD700
 }
 
 .et_search_form_container input::-webkit-input-placeholder {
-    color: #054968
+    color: #FFD700
 }
 
 .et_search_form_container input:-ms-input-placeholder {
-    color: #054968
+    color: #FFD700
 }
 
 #top-menu li a {
@@ -10137,16 +10139,16 @@ body.et_vertical_nav .container.et_search_form_container .et-search-form input {
 }
 
 #main-footer {
-    background-color: #054968
+    background-color: #FFD700
 }
 
 #footer-bottom {
-    background-color: #18ddb8
+    background-color: #FFD700
 }
 
 #footer-info,
 #footer-info a {
-    color: #054968
+    color: #FFD700
 }
 
 #footer-info {
@@ -10158,7 +10160,7 @@ body.et_vertical_nav .container.et_search_form_container .et-search-form input {
 }
 
 #footer-bottom .et-social-icon a {
-    color: #054968
+    color: #FFD700
 }
 
 @media only screen and (min-width:981px) {
@@ -10213,19 +10215,19 @@ body.et_vertical_nav .container.et_search_form_container .et-search-form input {
     .et-fixed-header .et_search_form_container input,
     .et-fixed-header .et_close_search_field:after,
     .et-fixed-header #et-top-navigation .et-cart-info {
-        color: #054968 !important
+        color: #FFD700 !important
     }
 
     .et-fixed-header .et_search_form_container input::-moz-placeholder {
-        color: #054968 !important
+        color: #FFD700 !important
     }
 
     .et-fixed-header .et_search_form_container input::-webkit-input-placeholder {
-        color: #054968 !important
+        color: #FFD700 !important
     }
 
     .et-fixed-header .et_search_form_container input:-ms-input-placeholder {
-        color: #054968 !important
+        color: #FFD700 !important
     }
 
     .et-fixed-header #top-menu li.current-menu-ancestor>a,
@@ -10276,7 +10278,7 @@ body.et_vertical_nav .container.et_search_form_container .et-search-form input {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 16px;
-    color: #2432f1 !important
+    color: #000000 !important
 }
 
 .et_pb_menu_0_tb_header.et_pb_menu ul li:hover>a,
@@ -10475,7 +10477,7 @@ body #page-container .et_pb_section .et_pb_button_1_tb_header {
 body #page-container .et_pb_section .et_pb_button_1_tb_header:hover {
     color: #585DD6 !important;
     background-image: initial;
-    background-color: #19ddb8
+    background-color: #FFD700
 }
 
 body #page-container .et_pb_section .et_pb_button_1_tb_header:before {
@@ -10673,7 +10675,7 @@ body #page-container .et_pb_section .et_pb_button_1_tb_header:hover:before {
 .et_pb_text_8.et_pb_text,
 .et_pb_text_10.et_pb_text,
 .et_pb_text_11.et_pb_text {
-    color: #0E1119 !important
+    color: #000000   !important
 }
 
 .et_pb_text_0,
@@ -10690,13 +10692,13 @@ body #page-container .et_pb_section .et_pb_button_1_tb_header:hover:before {
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 800;
     font-size: 40px;
-    color: #2432F1 !important;
+    color: black !important;
     line-height: 1.3em
 }
 
 .et_pb_text_0 h2,
 .et_pb_text_10 h2 {
-    color: #2432F1 !important
+    color: black !important
 }
 
 .et_pb_button_0_wrapper .et_pb_button_0,
@@ -10715,14 +10717,14 @@ body #page-container .et_pb_section .et_pb_button_1_tb_header:hover:before {
 }
 
 body #page-container .et_pb_section .et_pb_button_0 {
-    color: #FFFFFF !important;
+    color: #000000 !important;
     border-color: rgba(0, 0, 0, 0);
     border-radius: 20px;
     letter-spacing: 0px;
     font-size: 22px;
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif !important;
     font-weight: 600 !important;
-    background-color: #ff9226
+    background-color: #ffd726
 }
 
 body #page-container .et_pb_section .et_pb_button_0:before,
@@ -10738,7 +10740,7 @@ body #page-container .et_pb_section .et_pb_button_0:hover,
 body #page-container .et_pb_section .et_pb_button_1:hover,
 body #page-container .et_pb_section .et_pb_button_2:hover {
     background-image: initial;
-    background-color: #0e1119
+    background-color: #faba0a 
 }
 
 .et_pb_button_0,
@@ -10762,6 +10764,8 @@ body #page-container .et_pb_section .et_pb_button_2:hover {
     margin-bottom: 25px !important
 }
 
+
+/*BOTAO AGENDAMENTO ONLINE*/
 body #page-container .et_pb_section .et_pb_button_1,
 body #page-container .et_pb_section .et_pb_button_2 {
     color: #FFFFFF !important;
@@ -10771,11 +10775,11 @@ body #page-container .et_pb_section .et_pb_button_2 {
     font-size: 22px;
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif !important;
     font-weight: 600 !important;
-    background-color: #2432f1
+    background-color: black
 }
 
 .et_pb_section_1.et_pb_section {
-    background-color: #FFFFFF !important
+    background-color: #faba0a  !important
 }
 
 .et_pb_section_2.et_pb_section {
@@ -10789,7 +10793,7 @@ body #page-container .et_pb_section .et_pb_button_2 {
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 800;
     font-size: 50px;
-    color: #2432F1 !important;
+    color: #000000 !important;
     line-height: 1.3em
 }
 
@@ -10820,7 +10824,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
     font-weight: 700;
     text-transform: uppercase;
     font-size: 24px;
-    color: #FF9226 !important;
+    color: #000000 !important;
     text-align: center
 }
 
@@ -10898,7 +10902,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 800;
     font-size: 50px;
-    color: #2432F1 !important;
+    color: #000000 !important;
     text-align: left
 }
 
@@ -10941,7 +10945,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 800;
     font-size: 70px;
-    color: #2432F1 !important;
+    color: #000000 !important;
     text-align: center
 }
 
@@ -11264,7 +11268,7 @@ p.woocommerce-thankyou-order-received {
     padding: 20px !important;
     border-radius: 50px;
     font-size: 18px;
-    color: #054968
+    color: #FFD700
 }
 
 .h4forms {
@@ -12484,7 +12488,7 @@ button.swiper-pagination-bullet {
 
 
 .et_pb_section_0_tb_footer.et_pb_section {
-    background-color: #001E42 !important
+    background-color: #ffd104 !important
 }
 
 .et_pb_image_0_tb_footer {
@@ -12493,9 +12497,14 @@ button.swiper-pagination-bullet {
     margin-left: 0
 }
 
-.et_pb_text_0_tb_footer.et_pb_text,
+
+/*TEXTO DO RODAPÉ SOBRE A CLÍNICA*/
+.et_pb_text_0_tb_footer.et_pb_text{
+color: #000000 !important}
+
+/*TEXTO JOÃO PAULO*/
 .et_pb_text_4_tb_footer.et_pb_text a {
-    color: #FFFFFF !important
+    color: #ffffff !important
 }
 
 .et_pb_text_0_tb_footer {
@@ -12508,13 +12517,13 @@ button.swiper-pagination-bullet {
 .et_pb_text_1_tb_footer h3,
 .et_pb_text_3_tb_footer h3 {
     font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
-    color: #FFFFFF !important
+    color: #000000 !important
 }
 
 .et_pb_text_1_tb_footer,
 .et_pb_text_3_tb_footer {
     border-bottom-width: 5px;
-    border-bottom-color: #FFF2E2;
+    border-bottom-color: #000000;
     margin-bottom: 30px !important
 }
 
@@ -12526,7 +12535,7 @@ button.swiper-pagination-bullet {
 }
 
 .et_pb_text_2_tb_footer.et_pb_text a {
-    color: #FFFFFF !important;
+    color: #000000 !important;
     transition: color 300ms ease 0ms
 }
 
@@ -12571,13 +12580,13 @@ button.swiper-pagination-bullet {
     padding-right: 8px !important;
     padding-bottom: 8px !important;
     padding-left: 8px !important;
-    background-color: #2432F1
+    background-color: #000000;
 }
 
 .et_pb_blurb_0_tb_footer .et-pb-icon,
 .et_pb_blurb_1_tb_footer .et-pb-icon {
     font-size: 13px;
-    color: #ffffff;
+    color: #000000;
     font-family: ETmodules !important;
     font-weight: 400 !important
 }
@@ -12588,7 +12597,7 @@ button.swiper-pagination-bullet {
 }
 
 ul.et_pb_social_media_follow_0_tb_footer {
-    background-color: #2432F1;
+    background-color: #000000;
     padding-top: 10px !important;
     padding-bottom: 10px !important
 }
@@ -12598,7 +12607,7 @@ ul.et_pb_social_media_follow_0_tb_footer {
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: #2432F1 !important
+    background-color: #000000 !important
 }
 
 .et_pb_row_1_tb_footer.et_pb_row {
@@ -12608,8 +12617,10 @@ ul.et_pb_social_media_follow_0_tb_footer {
     padding-bottom: 4px
 }
 
+
+/*TEXTO DIREITOS RESERVADOS*/
 .et_pb_text_4_tb_footer.et_pb_text {
-    color: #FCE7EC !important
+    color: #ffffff !important
 }
 
 .et_pb_text_4_tb_footer {
@@ -12672,7 +12683,7 @@ ul.et_pb_social_media_follow_0_tb_footer {
     .et_pb_text_1_tb_footer,
     .et_pb_text_3_tb_footer {
         border-bottom-width: 5px;
-        border-bottom-color: #FFF2E2
+        border-bottom-color: #000000
     }
 
     .et_pb_social_media_follow_0_tb_footer {
@@ -12688,7 +12699,7 @@ ul.et_pb_social_media_follow_0_tb_footer {
     .et_pb_text_1_tb_footer,
     .et_pb_text_3_tb_footer {
         border-bottom-width: 5px;
-        border-bottom-color: #FFF2E2
+        border-bottom-color: #000000
     }
 
     .et_pb_social_media_follow_0_tb_footer {
@@ -12771,7 +12782,7 @@ ul.et_pb_social_media_follow_0_tb_footer {
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 800;
     font-size: 70px;
-    color: #2432F1 !important;
+    color: #000000 !important;
     text-align: left
 }
 
@@ -12814,7 +12825,7 @@ ul.et_pb_social_media_follow_0_tb_footer {
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 800;
     font-size: 70px;
-    color: #2432F1 !important;
+    color: #000000 !important;
     text-align: center
 }
 
@@ -12837,17 +12848,19 @@ ul.et_pb_social_media_follow_0_tb_footer {
     margin-bottom: 25px !important
 }
 
+
+/*AREA DO TAXI DOG*/
 body #page-container .et_pb_section .et_pb_button_3,
 body #page-container .et_pb_section .et_pb_button_4,
 body #page-container .et_pb_section .et_pb_button_5 {
-    color: #FFFFFF !important;
+    color: #030303 !important;
     border-color: rgba(0, 0, 0, 0);
     border-radius: 20px;
     letter-spacing: 0px;
     font-size: 22px;
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif !important;
     font-weight: 600 !important;
-    background-color: #FF9226
+    background-color: #ffee00
 }
 
 body #page-container .et_pb_section .et_pb_button_3:before,
@@ -12866,7 +12879,7 @@ body #page-container .et_pb_section .et_pb_button_4:hover,
 body #page-container .et_pb_section .et_pb_button_5:hover,
 body #page-container .et_pb_section .et_pb_button_6:hover {
     background-image: initial;
-    background-color: #0E1119
+    background-color: #faba0a
 }
 
 .et_pb_button_3,
@@ -12898,8 +12911,9 @@ body #page-container .et_pb_section .et_pb_button_6:hover {
     font-size: 30px
 }
 
+/*AREA DE DESCRIÇÕES DE BANHOS PETS*/
 .et_pb_row_7 {
-    background-color: #2432F1;
+    background-color: #000000;
     border-radius: 20px 20px 20px 20px;
     overflow: hidden
 }
@@ -12980,7 +12994,7 @@ body #page-container .et_pb_section .et_pb_button_6:hover {
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 800;
     font-size: 50px;
-    color: #27304b !important;
+    color: #ec7f01 !important;
     line-height: 1.3em;
     text-align: right
 }
@@ -12989,7 +13003,7 @@ body #page-container .et_pb_section .et_pb_button_6:hover {
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 800;
     font-size: 70px;
-    color: #2432F1 !important;
+    color: #000000 !important;
     text-align: right
 }
 
@@ -13018,7 +13032,7 @@ body #page-container .et_pb_section .et_pb_button_6:hover {
 }
 
 .et_pb_text_22.et_pb_text {
-    color: #2432F1 !important
+    color: #000000 !important
 }
 
 .et_pb_text_22 {
@@ -13073,7 +13087,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
     font-weight: 700;
     text-transform: uppercase;
     font-size: 24px;
-    color: #2432F1 !important;
+    color: #000000 !important;
     text-align: center
 }
 
@@ -13085,7 +13099,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 }
 
 .et_pb_row_14 {
-    background-image: linear-gradient(90deg, #f7f7f7 64%, #2432f1 64%);
+    background-image: linear-gradient(90deg, #f7f7f7 64%, #575756 64%);
     border-radius: 30px 30px 30px 30px;
     overflow: hidden;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1)
@@ -13136,7 +13150,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 800;
     font-size: 50px;
-    color: #2432F1 !important;
+    color: #080808 !important;
     text-align: center
 }
 
@@ -13198,7 +13212,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .dipl_testimonial_slider_0 .dipl_testimonial_author_name {
     font-family: 'Changa', Helvetica, Arial, Lucida, sans-serif !important;
     font-size: 20px !important;
-    color: #2432F1 !important
+    color: #000000 !important
 }
 
 .dipl_testimonial_slider_0 .swiper-slide {
@@ -13282,6 +13296,8 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
     border-color:
 }
 
+
+/*COR DAS ESTRELAS DE AVALIAÇÃO*/
 .dipl_testimonial_slider_0 .dipl_testimonial_rating .dipl_testimonial_filled_star,
 .dipl_testimonial_slider_0 .dipl_testimonial_rating .dipl_testimonial_half_filled_star {
     color: #FF9226 !important
@@ -13296,7 +13312,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 }
 
 .dipl_testimonial_slider_0 .dipl_testimonial_opening_quote_icon {
-    color: #2432F1 !important;
+    color: #020202 !important;
     font-size: 51px !important
 }
 
@@ -13353,7 +13369,7 @@ body #page-container .et_pb_section .et_pb_button_6 {
 }
 
 div.et_pb_section.et_pb_section_7 {
-    background-image: linear-gradient(180deg, #2432f1 0%, #2432f1 100%) !important
+    background-image: linear-gradient(180deg, #000000 0%, #000000 100%) !important
 }
 
 .et_pb_section_7.et_pb_section {
@@ -13703,7 +13719,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
     }
 
     .et_pb_row_14 {
-        background-image: linear-gradient(180deg, #f7f7f7 74%, #2432f1 74%)
+        background-image: linear-gradient(180deg, #f7f7f7 74%, #000000 74%)
     }
 
     .et_pb_row_14.et_pb_row {
